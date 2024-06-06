@@ -4,39 +4,40 @@
      justify-content:center;
     align-items: center;
     background: rgb(230,223,4);
-background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
-  height: 70vh;
-  text-align: center;
-  
+    background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
+     height: 70vh;
+  text-align:end;
+  overflow: hidden;
+ 
 }
-.introClass h1{
+.mainH{
+    margin-left: 75px;
+    font-family: 'Burbank Big Condensed Black', sans-serif;
+    color: greenyellow;
+    text-shadow: 2px 2px 2px #7a641c;
+    font-size: 2vw;
+}
+.minH{
     margin-left: 5px;
     font-family: 'Burbank Big Condensed Black', sans-serif;
     color: greenyellow;
     text-shadow: 2px 2px 2px #7a641c;
-    font-size: 6vw;
-}
-.introClass h3{
-    margin-left: 5px;
-    font-family: 'Burbank Big Condensed Black', sans-serif;
-    color: greenyellow;
-    text-shadow: 2px 2px 2px #7a641c;
-    font-size: 4vw;
+    font-size: 1vw;
 }
 .imgDiv{
-    margin:25px;
+    margin:20px;
 }
 .zombie{
     display: flex;
     width: 60px;
-    animation: moveRightToLeft 10s  linear infinite;
+    animation: moveRightToLeft 5s  linear infinite;
 }
 
 @keyframes moveRightToLeft {
     0% {
-        transform: translateX(18vw); /* Start off the screen to the right */
+        transform: translateX(20vw); /* Start off the screen to the right */
     }
     100% {
-        transform: translateX(-1vw); /* End off the screen to the left */
+        transform: translateX(5vw); /* End off the screen to the left */
     }
 }

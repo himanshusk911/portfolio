@@ -10,6 +10,7 @@
     margin-left: 20px;
     padding-right: 20px;
     padding: 10px;
+    
 
 } 
   .imageDiv::before {
@@ -17,7 +18,7 @@
       position: absolute;
       bottom: 5%;
       left: 60%;
-      transform: translateX(-64%);
+      transform: translateX(-60%);
       width:350px; /* Adjust the width of the semicircle */
       height:350px; /* Adjust the height of the semicircle */
       background: rgb(4, 230, 42);
@@ -28,7 +29,7 @@
   
   
   .imageDiv img {
-    width:290px;
+   
   
     transition: transform 0.3s ease-in-out;
   }

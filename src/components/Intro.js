@@ -7,9 +7,9 @@ const Intro = () => {
         <div className='secondClass'>
      
         <img  className="zombie" src='/assets/flyzom.png' alt='zombie'/>
-        <h1 style={{fontSize:"50px"}}>Himanshu Singh</h1>
-        <h1 style={{fontSize:"50px"}}>Koshyari</h1>
-        <h3 style={{fontSize:"40px"}}>[Full Stack Developer]</h3>
+        <p  className="mainH" style={{fontSize:"50px"}}>Himanshu Singh</p>
+        <p className="mainH" style={{fontSize:"50px"}}>Koshyari</p>
+        <p className="minH" style={{fontSize:"40px"}}>[Full Stack Developer]</p>
         </div>
         <div className='imgDiv'>
             <ImageComp/>
