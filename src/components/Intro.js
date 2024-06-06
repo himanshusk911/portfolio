@@ -11,7 +11,7 @@ const Intro = () => {
         <h1 style={{fontSize:"50px"}}>Koshyari</h1>
         <h3 style={{fontSize:"40px"}}>[Full Stack Developer]</h3>
         </div>
-        <div>
+        <div className='imgDiv'>
             <ImageComp/>
         </div>
     </div>

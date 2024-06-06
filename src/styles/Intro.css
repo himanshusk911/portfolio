@@ -1,10 +1,12 @@
 .introClass{
+    width: 100%;
     display: flex;
-    justify-content: center;
+     justify-content:center;
     align-items: center;
     background: rgb(230,223,4);
 background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
   height: 70vh;
+  
 }
 .introClass h1{
     font-family: 'Burbank Big Condensed Black', sans-serif;
@@ -15,6 +17,9 @@ background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgb
     font-family: 'Burbank Big Condensed Black', sans-serif;
     color: greenyellow;
     text-shadow: 2px 2px 2px #7a641c;
+}
+.imgDiv{
+    margin:25px;
 }
 .zombie{
     display: flex;
@@ -30,3 +35,4 @@ background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgb
         transform: translateX(-1vw); /* End off the screen to the left */
     }
 }
+

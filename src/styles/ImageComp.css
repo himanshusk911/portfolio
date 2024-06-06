@@ -4,7 +4,7 @@
     width: 85%;
     height: 410px;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     margin-top: 60px;
     margin-left: 20px;
@@ -17,9 +17,9 @@
       position: absolute;
       bottom: 5%;
       left: 60%;
-      transform: translateX(-50%);
-      width: 350px; /* Adjust the width of the semicircle */
-      height: 350px; /* Adjust the height of the semicircle */
+      transform: translateX(-64%);
+      width:350px; /* Adjust the width of the semicircle */
+      height:350px; /* Adjust the height of the semicircle */
       background: rgb(4, 230, 42);
       background: radial-gradient(circle, rgba(230, 109, 4, 0.741) 0%, yellowgreen 89%); /* Adjust the background color */
       border-radius: 50% 50% 50% 50%; /* Creates the semicircle shape */
