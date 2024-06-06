@@ -9,14 +9,18 @@ background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgb
   
 }
 .introClass h1{
+    margin-left: 5px;
     font-family: 'Burbank Big Condensed Black', sans-serif;
     color: greenyellow;
     text-shadow: 2px 2px 2px #7a641c;
+    font-size: 6vw;
 }
 .introClass h3{
+    margin-left: 5px;
     font-family: 'Burbank Big Condensed Black', sans-serif;
     color: greenyellow;
     text-shadow: 2px 2px 2px #7a641c;
+    font-size: 4vw;
 }
 .imgDiv{
     margin:25px;
