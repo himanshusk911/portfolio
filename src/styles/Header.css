@@ -1,33 +1,65 @@
-.navHeader{
+.navHeader {
     background-color: #7a641c;
     display: flex;
     height: 4rem;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
     border-radius: 2px;
-}
-.navLinks{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navLinks {
     display: flex;
-    width: auto;
-    justify-content: space-between;
-    
-}
-
-.logo{
-    margin: 5px 0px 0px 0px;
-    width:50px;
+    gap: 1rem;
+  }
+  
+  .logo {
+    margin: 5px 0 0 0;
+    width: 50px;
     height: 38px;
     color: rgb(175, 52, 0);
-    
-}
-.pea{
+  }
+  
+  .pea {
     display: flex;
+    width: 6vw;
     animation: moveLeft 3s infinite;
-}
-@keyframes moveLeft{
+  }
+  
+  @keyframes moveLeft {
     0% {
-        transform: translateX(calc(-35vw + 70px)); /* Start off the screen to the right */
+      transform: translateX(-35vw); /* Start off the screen to the right */
     }
     100% {
-        transform: translateX(calc(25vw - 30px)); /* End off the screen to the left */
+      transform: translateX(100%); /* End off the screen to the left */
     }
-}
+  }
+  
+  @keyframes moveLeftSecond {
+    0% {
+      transform: translateX(5vw); /* Start off the screen to the right */
+    }
+    100% {
+      transform: translateX(8vw); /* End off the screen to the left */
+    }
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 480px) {
+    .navHeader {
+      padding: 0.5rem;
+    }
+  
+    .logo {
+      width: 40px;
+      height: 30px;
+    }
+  
+    .pea {
+      width: 10vw;
+      animation: moveLeftSecond 3s infinite;
+    }
+  }
+  
