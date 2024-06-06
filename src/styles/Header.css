@@ -19,7 +19,7 @@
 
 .pea {
     display: flex;
-    width: 6vw;
+    width: 8vw;
     animation: moveLeft 3s infinite;
 }
 
@@ -44,7 +44,7 @@
     }
 
     .pea {
-        width: 6vw;
+        width: 8vw;
         animation: moveLeftSecond 3s infinite; /* Change animation for small screens */
     }
 
@@ -68,7 +68,8 @@
     }
 
     .pea {
-        width: 6vw;
+        width: 9vw;
+        height: 10vw;
         animation: moveLeftThird 3s infinite; /* Change animation for small screens */
     }
 
