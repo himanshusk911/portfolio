@@ -1,0 +1,40 @@
+
+.imageDiv {
+    position: relative;
+    width: 85%;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+
+} 
+  .imageDiv::before {
+      content: '';
+      position: absolute;
+      bottom: 5%;
+      left: 60%;
+      transform: translateX(-50%);
+      width: 350px; /* Adjust the width of the semicircle */
+      height: 350px; /* Adjust the height of the semicircle */
+      background: rgb(4, 230, 42);
+      background: radial-gradient(circle, rgba(230, 109, 4, 0.741) 0%, yellowgreen 89%); /* Adjust the background color */
+      border-radius: 50% 50% 50% 50%; /* Creates the semicircle shape */
+      z-index: -1; /* Pushes the semicircle behind the image */
+    }
+  
+  
+  .imageDiv img {
+    width:290px;
+  
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imageDiv img:hover {
+    transform: scale(1.1);
+  }
+  
+  

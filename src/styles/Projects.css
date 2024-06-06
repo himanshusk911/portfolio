@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mainProject {
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .mainProject img {
+    margin-bottom: 20px;
+  }
+  
+  /* Project container */
+  .projectComps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  
+  .projectDiv {
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 250px;
+  }
+  
+  .projectDiv:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .firstProject {
+    background: rgb(230,223,4);
+    background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 90px;
+  }
+  
+  .firstProject img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Text content styling */
+  .secondProject {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .secondProject h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color:brown;
+    text-shadow: 1px 1px 1px yellow;
+    font-family: 'Burbank Big Condensed Black', sans-serif;
+  }
+  
+  .secondProject p {
+    margin: 5px 0;
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .secondProject p a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .secondProject p a:hover {
+    text-decoration: underline;
+  }
+  

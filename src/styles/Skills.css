@@ -1,0 +1,38 @@
+/* Styles for Skills component */
+
+.mainSkills{
+    text-align: center;
+    padding: 20px;
+    background: rgb(230,223,4);
+    background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
+    margin: 0 auto;
+    height: 55vh;
+  }
+  
+ 
+  
+  .mySkills {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    margin-top: 20px;
+  }
+  
+  .mySkills div {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .mySkills p {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+    color:brown;
+    text-shadow: 1px 1px 1px yellow;
+    font-family: 'Burbank Big Condensed Black', sans-serif;
+  }
+  

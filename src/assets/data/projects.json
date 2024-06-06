@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Stone Paper Scissor",
+    "img": "https://i.pinimg.com/564x/34/7e/4a/347e4a9ce012dd6c9bdafa1f3a17aac5.jpg",
+    "gitLink": "https://github.com/himanshusk911/stonepaper",
+    "vercel": "https://stonepaper-woad.vercel.app/",
+    "desc": "Stone Paper Scissor is general game played by public ,I have made the same with the help to React ,here one side is user and other is machine"
+  },
+  {
+    "name": "Discord Clone",
+    "img": "https://sm.ign.com/t/ign_in/news/d/discord-wi/discord-will-soon-allow-you-to-stream-xbox-games-directly-on_dbe8.1280.jpg",
+    "gitLink": "https://github.com/himanshusk911/discord",
+    "vercel": "https://discord-gilt-iota.vercel.app/",
+    "desc": "Discord clone made with the help of React,Firebase and Hooks.Login and Authentication is done using Firebase .Rest all funcnalities are build using React "
+  },
+  {
+    "name": "Platzi :Shooping App",
+    "img": "https://res.cloudinary.com/dugcmkito/image/upload/v1671648147/03_What_is_an_e_commerce_shopping_cart_a81bc3023b.png",
+    "gitLink": "https://github.com/himanshusk911/Platzi",
+    "vercel": "https://platzi-seven.vercel.app/",
+    "desc": "Platzi is a shoping web application built using React,Firebase and Redux .State management is done using Redux .I have also enabled google Oauth login for more effective login "
+  },{
+    "name": "Hotel Management System",
+    "img": "https://phenixsoft.com/blog_images/hotelmanagement-j6ahk-600x400.jpg",
+    "gitLink":"https://github.com/himanshusk911/Assigments/tree/case_study",
+    "vercel":"",
+    "desc":"HMS was built using microservices architecture where backend is built on Spring Boot,Spring Security and other technologies used are Eureka React  "
+  }
+
+]

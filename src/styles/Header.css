@@ -1,0 +1,33 @@
+.navHeader{
+    background-color: #7a641c;
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+.navLinks{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    margin: 5px 0px 0px 0px;
+    width:50px;
+    height: 38px;
+    color: rgb(175, 52, 0);
+    
+}
+.pea{
+    display: flex;
+    animation: moveLeft 3s infinite;
+}
+@keyframes moveLeft{
+    0% {
+        transform: translateX(calc(-35vw + 70px)); /* Start off the screen to the right */
+    }
+    100% {
+        transform: translateX(calc(25vw - 30px)); /* End off the screen to the left */
+    }
+}

@@ -1,0 +1,54 @@
+/* General styling for the contact container */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: rgb(230,223,4);
+    background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    height: 55vh;
+  }
+  
+  .contact-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for the contact info */
+  .contact-info {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact-item {
+    margin-bottom: 20px;
+  
+  }
+  
+  .contact-item h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color:brown;
+    text-shadow: 1px 1px 1px yellow;
+    font-family: 'Burbank Big Condensed Black', sans-serif;
+  }
+  
+  .contact-item p {
+    margin: 0;
+    font-size: 1em;
+    color: #0073e6;
+  }
+  
+  .contact-item p a {
+    text-decoration: none;
+    color: yellowgreen;
+  }
+  
+  .contact-item p a:hover {
+    text-decoration: underline;
+  }
+ 

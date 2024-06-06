@@ -1,0 +1,31 @@
+.grass-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px; /* Adjust height as needed */
+    background-color: #87CEEB; /* Sky blue background */
+    overflow: hidden;
+  }
+  
+  .grass {
+    width: 10px;
+    height: 100px; /* Adjust height as needed */
+    background-color: green;
+    margin: 0 2px;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    animation: sway 2s ease-in-out infinite;
+  }
+  
+  @keyframes sway {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .grass:nth-child(odd) {
+    animation-delay: -1s; /* Stagger animations for odd elements */
+  }
+  
