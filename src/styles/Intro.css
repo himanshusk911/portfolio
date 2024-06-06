@@ -6,6 +6,7 @@
     background: rgb(230,223,4);
 background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgba(122,111,28,1) 89%);
   height: 70vh;
+  text-align: center;
   
 }
 .introClass h1{
@@ -39,4 +40,3 @@ background: radial-gradient(circle, rgba(230,223,4,0.025647759103641476) 0%, rgb
         transform: translateX(-1vw); /* End off the screen to the left */
     }
 }
-
