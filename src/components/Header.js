@@ -9,7 +9,7 @@ const Header = () => {
       document.getElementById('contactSection').scrollIntoView({ behavior: 'smooth' });
     }
   return (
-    <div>
+   
         <nav className='navHeader'>
             <img src='/assets/plant1.png' alt='mylogo'/>
             <img className="pea" src='/assets/pea.webp' alt='pea'/>
@@ -18,7 +18,7 @@ const Header = () => {
              <img src='/assets/contact.png' alt='contact' onClick={handleScrollToContact}/>
             </div>
         </nav>
-    </div>
+   
   )
 }
 
