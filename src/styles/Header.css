@@ -19,7 +19,7 @@
 
 .pea {
     display: flex;
-    width: 8vw;
+    width: 5.5vw;
     animation: moveLeft 3s infinite;
 }
 

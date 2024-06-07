@@ -41,3 +41,20 @@
         transform: translateX(5vw); /* End off the screen to the left */
     }
 }
+@media (max-width:992px) {
+
+    .zombie{
+        display: flex;
+        width: 50px;
+        animation: moveRight 5s infinite;;
+    }
+    
+}
+@keyframes moveRight{
+    0% {
+        transform: translateX(40vw); /* Start off the screen to the right */
+    }
+    100% {
+        transform: translateX(12vw); /* End off the screen to the left */
+    }
+}
